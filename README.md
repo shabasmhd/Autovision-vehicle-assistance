@@ -1,25 +1,29 @@
-<h1>Traffic Sign Recognition using YOLOv8 Algorithm
-extended with CNN</h1>
+# AutoVision – Vehicle Assistance System
 
-<h3>This project uses a two-stage implementation for traffic sign recognition. On the first
-stage, real-time video stream from the cameras is processed by the trained YOLO
-model. Results are processed and bounding boxes are drawn around detections with
-confidence over a pre-defined threshold. On the second stage, these detections are
-cropped and are further processed by the trained CNN model which classifies the
-traffic signs into 43 categories.</h3>
+AutoVision is an intelligent vehicle assistance system designed to recognize traffic signs in real-time and alert drivers to ensure safer driving. The system uses deep learning and computer vision techniques to detect and classify traffic signs from live video feed and generate corresponding visual or audio alerts.
 
+## 🚀 Features
+- Real-time traffic sign detection and recognition
+- Visual and/or audio driver alerts
+- Built using Python, OpenCV, and a custom-trained CNN model
+- Dataset: German Traffic Sign Recognition Benchmark (GTSRB)
+- Modular codebase for training, testing, and inference
 
-<p>
-Datasets Used:<br>
-&ensp; GTSRB - German Traffic Sign Recognition Benchmark<br>
-&ensp; GTSDB - German Traffic Sign Detection Benchmark<br>
-</p>
-
-<p>
-For training using GPU (tested with RTX3050 Mobile):<br>
-&ensp; CUDA Toolkit v11.2.0<br>
-&ensp; cuDNN v8.1.0<br>
-</p>
+## 🔧 Technologies Used
+- Python
+- OpenCV
+- TensorFlow / PyTorch
+- NumPy
+- Jupyter Notebook
 
 
-[Link to Research Paper](assets/Traffic%20Sign%20Recognition%20Research%20Paper%20PBL%20v3.pdf)
+## 📦 Dataset & Model
+Due to size limitations, the dataset and trained model weights are available separately:
+
+- 📁 [Download Dataset (GTSRB)]
+- 🧠 [Download Trained Model]
+
+## ✅ How to Run
+```bash
+pip install -r requirements.txt
+python main.py
