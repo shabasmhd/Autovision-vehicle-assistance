@@ -1,0 +1,7 @@
+/.idea
+/venv
+
+/Datasets/GTSRB/X_train.npy
+/Datasets/GTSRB/X_validation.npy
+/Datasets/GTSRB/Y_train.npy
+/Datasets/GTSRB/Y_validation.npy
